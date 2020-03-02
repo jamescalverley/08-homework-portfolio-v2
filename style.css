@@ -24,7 +24,7 @@ h1 {
     color: white;
     /* font-family: 'Roboto Condensed', sans-serif; */
     font-family: 'Anton';
-    font-size: 30px;
+    font-size: 40px;
     margin-left: 40px;;
 }
 
@@ -37,7 +37,7 @@ body {
 }
 
 .name {
-    font-size: 60px;
+    font-size: 80px;
     text-align: left;
     margin-top: 160px;
     margin-left: 60px;
@@ -50,7 +50,7 @@ body {
     font-size: 30px;
     text-align: left;
     margin-top: 0px;
-    margin-left: 90px;
+    margin-left: 105px;
     color: #FFC300;
     font-family: 'Roboto Condensed', sans-serif;
     
@@ -73,8 +73,12 @@ body {
 }
 
 
+#nav-section {
+    padding-left: 200px;
+}
+
 .nav-link {
-    font-size: 16px;
+    font-size: 24px;
     font-family: 'Roboto Condensed', sans-serif;
     color: white;
 }
@@ -105,24 +109,74 @@ body {
 }
 
 /* portfolio page >>> cards */
-.wrapper {
+
+#mainProjects {
+    height: auto;
+    width: 100%;
+    text-align: center;
+    background-color: white;
+
+}
+
+.wrapperMain {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;  
+    padding: 60px;
+
+}
+
+.wrapperMain .card {
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.wrapperMain .card-body {
+    padding: 20px;
+}
+
+
+.wrapperMain .card-img {
+    padding: 50px;
+    
+}
+
+.wrapperMain .card-title {
+    font-size: 30px;
+    margin-top: 30px;
+    margin-left: 30px;
+    text-align: left;
+}
+
+.wrapperMain .card-text {
+    font-size: 18px;
+    height: auto;
+    margin: 20px 20px 40px 30px;
+    text-align: left;
+    line-height: 20px;
+}
+
+
+.wrapperMore {
     list-style: none;
     /* height: 100%;
     width: 100%;   */
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: start;  
+    justify-content: center;  
     margin: 30px 40px 80px 40px;
 }
 
 
-.card {
+.wrapperMore .card {
     width: 200px;
     height: 200px;
     margin: 10px;
-    padding: 10px;
-   
+    padding: 10px;   
 }
 
 .card-text {
@@ -133,10 +187,15 @@ body {
 
 /* contact form */
 
+.contact-heading {
+    color: white;
+}
+
 .contact-form {
     margin: 10px 10px 100px 10px;
     padding-left: 10px;
     padding-right: 10px; 
+    color: white;
 }
 
 #inputMessage {
